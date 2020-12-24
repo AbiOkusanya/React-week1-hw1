@@ -1,0 +1,60 @@
+#container {
+	width: 98vw;
+	height: 150vh;
+	background-color: rgb(226, 215, 215);
+	display: flex;
+	place-items: start center;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-gap: 20px;
+}
+
+#SideBar {
+	padding-top: 100px;
+	height: 60vw;
+	width: 20vw;
+	background-color: rgb(117, 116, 116);
+	/* padding: 5px; */
+	align-items: start;
+}
+
+#Reviews {
+	height: 15vw;
+	width: 20vw;
+	background-color: rgb(117, 116, 116);
+	grid-column-start: 2;
+}
+
+#AverageRating {
+	height: 15vw;
+	width: 20vw;
+	background-color: rgb(117, 116, 116);
+	grid-column-start: 3;
+}
+
+#Sentiment {
+	height: 15vw;
+	width: 20vw;
+	background-color: rgb(117, 116, 116);
+	grid-column-start: 5;
+}
+
+#WebsiteVistors {
+	height: 42vw;
+	width: 60vw;
+	background-color: rgb(117, 116, 116);
+	position: absolute;
+	top: 20vw;
+	right: 15vw;
+	padding-bottom: 10ex;
+}
+
+#nestedBox {
+	height: 32vw;
+	width: 32vw;
+	justify-content: space-around;
+	background-color: rgb(184, 166, 166);
+	grid-row: 3;
+	padding-top: 1em;
+	padding-left: 4em;
+}
